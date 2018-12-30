@@ -15,7 +15,7 @@ function SumSquareDifference() {
     const max = 100;
     let sumSquare = 0;
     let squareSum = 0;
-    for (let i = 1; i <= 100; i ++) {
+    for (let i = 1; i <= max; i ++) {
         sumSquare += Math.pow(i, 2);
         squareSum += i;
     }
